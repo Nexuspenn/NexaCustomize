@@ -1,9 +1,9 @@
 # NexaOS Customize
+(this program was made originally by https://github.com/FrancescoCaracciolo) 
 
 Tool to customize NexaOS GNOME appearance easily.
 
 **NexaOS** by **Nexus Foundation** - A modern, beautiful Linux distribution.
-(this program was made originally by https://github.com/FrancescoCaracciolo) 
 ## Brand Colors
 
 - **Primary**: #4f46e5 (Indigo)
