@@ -1,0 +1,235 @@
+/* NexaOS Customize - Nexus Foundation Brand Colors
+ * Copyright 2024 Nexus Foundation
+ * Licensed under GPL-3.0-or-later
+ */
+
+/* Brand Color Variables */
+@define-color nexus_primary #4f46e5;
+@define-color nexus_primary_hover #6366f1;
+@define-color nexus_primary_active #4338ca;
+@define-color nexus_secondary #8b5cf6;
+@define-color nexus_secondary_hover #a78bfa;
+@define-color nexus_secondary_active #7c3aed;
+@define-color nexus_background #0f121b;
+@define-color nexus_surface #1a1d2e;
+@define-color nexus_text #f6f6f6;
+@define-color nexus_text_secondary #d1d5db;
+@define-color nexus_border rgba(79, 70, 229, 0.2);
+@define-color nexus_card_bg rgba(79, 70, 229, 0.1);
+
+/* Window Background */
+window {
+    background-color: @nexus_background;
+    color: @nexus_text;
+}
+
+/* Header Bar */
+headerbar {
+    background-color: @nexus_surface;
+    color: @nexus_text;
+    border-bottom: 1px solid @nexus_border;
+}
+
+/* Suggested Action Button (Primary) */
+.suggested-action,
+button.suggested-action {
+    background-color: @nexus_primary;
+    color: @nexus_text;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.suggested-action:hover,
+button.suggested-action:hover {
+    background-color: @nexus_primary_hover;
+}
+
+.suggested-action:active,
+button.suggested-action:active {
+    background-color: @nexus_primary_active;
+}
+
+/* Secondary Button */
+.secondary-action,
+button.secondary-action {
+    background-color: @nexus_secondary;
+    color: @nexus_text;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+.secondary-action:hover,
+button.secondary-action:hover {
+    background-color: @nexus_secondary_hover;
+}
+
+.secondary-action:active,
+button.secondary-action:active {
+    background-color: @nexus_secondary_active;
+}
+
+/* Cards and Panels */
+.card {
+    background-color: @nexus_card_bg;
+    border: 1px solid @nexus_border;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+/* List Items */
+list row {
+    background-color: @nexus_surface;
+    border-bottom: 1px solid @nexus_border;
+}
+
+list row:hover {
+    background-color: rgba(79, 70, 229, 0.15);
+}
+
+list row:selected {
+    background-color: @nexus_primary;
+}
+
+/* Switches */
+switch:checked {
+    background-color: @nexus_primary;
+}
+
+switch:checked:hover {
+    background-color: @nexus_primary_hover;
+}
+
+/* Check Buttons and Radio Buttons */
+checkbutton:checked,
+radiobutton:checked {
+    color: @nexus_primary;
+}
+
+checkbutton:checked:hover,
+radiobutton:checked:hover {
+    color: @nexus_primary_hover;
+}
+
+/* Entry Fields */
+entry {
+    background-color: @nexus_surface;
+    color: @nexus_text;
+    border: 1px solid @nexus_border;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+entry:focus {
+    border-color: @nexus_primary;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
+}
+
+/* Scrollbars */
+scrollbar slider {
+    background-color: rgba(139, 92, 246, 0.5);
+    border-radius: 999px;
+}
+
+scrollbar slider:hover {
+    background-color: rgba(139, 92, 246, 0.7);
+}
+
+/* Progress Bars */
+progressbar progress {
+    background-color: @nexus_primary;
+    border-radius: 999px;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: @nexus_surface;
+    color: @nexus_text;
+    border: 1px solid @nexus_border;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+/* Popovers */
+popover {
+    background-color: @nexus_surface;
+    color: @nexus_text;
+    border: 1px solid @nexus_border;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Menu Items */
+menuitem:hover {
+    background-color: rgba(79, 70, 229, 0.15);
+}
+
+/* Separators */
+separator {
+    background-color: @nexus_border;
+}
+
+/* Labels */
+label {
+    color: @nexus_text;
+}
+
+label.dim-label {
+    color: @nexus_text_secondary;
+}
+
+/* Accent Colors for Status */
+.success {
+    color: #10b981;
+}
+
+.warning {
+    color: #f59e0b;
+}
+
+.error {
+    color: #ef4444;
+}
+
+.info {
+    color: @nexus_primary;
+}
+
+/* View Switcher */
+viewswitcher button:checked {
+    background-color: @nexus_primary;
+    color: @nexus_text;
+}
+
+viewswitcher button:hover {
+    background-color: rgba(79, 70, 229, 0.15);
+}
+
+/* Stack Sidebar */
+stacksidebar row:selected {
+    background-color: @nexus_primary;
+    color: @nexus_text;
+}
+
+/* Circular Buttons for Color Selection */
+button.circular {
+    border-radius: 999px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+/* Animations */
+@keyframes nexus-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: nexus-fade-in 0.3s ease-in;
+}

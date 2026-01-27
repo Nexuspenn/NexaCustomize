@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/moe/nyarchlinux/customize">
+  <gresource prefix="/org/nexusfoundation/nexaos/customize">
     <file preprocess="xml-stripblanks">window.ui</file>
     <file preprocess="xml-stripblanks">layoutgrid.ui</file>
       <file preprocess="xml-stripblanks">theming.ui</file>

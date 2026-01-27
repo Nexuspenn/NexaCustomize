@@ -1,9 +1,9 @@
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-moduledir = join_paths(pkgdatadir, 'nyarchcustomize')
+moduledir = join_paths(pkgdatadir, 'nexacustomize')
 gnome = import('gnome')
 
-gnome.compile_resources('nyarchcustomize',
-  'nyarchcustomize.gresource.xml',
+gnome.compile_resources('nexacustomize',
+  'nexacustomize.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -18,18 +18,18 @@ conf.set('localedir', join_paths(get_option('prefix'), get_option('localedir')))
 conf.set('pkgdatadir', pkgdatadir)
 
 configure_file(
-  input: 'nyarchcustomize.in',
-  output: 'nyarchcustomize',
+  input: 'nexacustomize.in',
+  output: 'nexacustomize',
   configuration: conf,
   install: true,
   install_dir: get_option('bindir')
 )
 
-nyarchcustomize_sources = [
+nexacustomize_sources = [
   '__init__.py',
   'main.py',
   'window.py',
   'layouts.py'
 ]
 
-install_data(nyarchcustomize_sources, install_dir: moduledir)
+install_data(nexacustomize_sources, install_dir: moduledir)

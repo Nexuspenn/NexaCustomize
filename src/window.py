@@ -1,6 +1,7 @@
 # window.py
 #
-# Copyright 2023 Francesco Caracciolo
+# Copyright 2024 Nexus Foundation
+# Originally developed by Francesco Caracciolo (2023)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -36,7 +37,7 @@ LOGO_UUID = "background-logo@fedorahosted.org"
 MU_UUID = "material-you-colors@francescocaracciolo.github.io"
 MU_SCHEMA = "org.gnome.shell.extensions.material-you-colors"
 
-@Gtk.Template(resource_path='/moe/nyarchlinux/customize/window.ui')
+@Gtk.Template(resource_path='/org/nexusfoundation/nexaos/customize/window.ui')
 class NyarchcustomizeWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'NyarchcustomizeWindow'
 
@@ -154,8 +155,8 @@ class NyarchcustomizeWindow(Adw.ApplicationWindow):
         return LAYOUTS
 
     def load_layouts(self):
-        self.layoutbuilder = Gtk.Builder.new_from_resource('/moe/nyarchlinux/customize/layoutgrid.ui')
-        self.themingPageBuilder = Gtk.Builder.new_from_resource('/moe/nyarchlinux/customize/theming.ui')
+        self.layoutbuilder = Gtk.Builder.new_from_resource('/org/nexusfoundation/nexaos/customize/layoutgrid.ui')
+        self.themingPageBuilder = Gtk.Builder.new_from_resource('/org/nexusfoundation/nexaos/customize/theming.ui')
         return self.layoutbuilder.get_object("gridcontent"), self.themingPageBuilder.get_object("themepage")
 
     def set_extension(self, uiid:str, enabled:bool):

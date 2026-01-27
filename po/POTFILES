@@ -1,6 +1,6 @@
-data/moe.nyarchlinux.customize.desktop.in
-data/moe.nyarchlinux.customize.appdata.xml.in
-data/moe.nyarchlinux.customize.gschema.xml
+data/nexusfoundation.nexaos.customize.desktop.in
+data/nexusfoundation.nexaos.customize.appdata.xml.in
+data/nexusfoundation.nexaos.customize.gschema.xml
 src/main.py
 src/window.py
 src/window.ui
