@@ -28,12 +28,6 @@ Tool to customize NexaOS GNOME appearance easily.
 
 ## Installation
 
-### From Flatpak
-
-```bash
-flatpak install flathub nexusfoundation.nexaos.customize
-```
-
 ### From Source
 
 ```bash
@@ -48,12 +42,6 @@ Run from your applications menu or terminal:
 
 ```bash
 nexacustomize
-```
-
-Or if installed via Flatpak:
-
-```bash
-flatpak run nexusfoundation.nexaos.customize
 ```
 
 ## Development
@@ -86,13 +74,5 @@ See [COPYING](COPYING) for full license text.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-- **Website**: https://nexuspenn.org
-- **Documentation**: https://docs.nexuspenn.org
-- **Issues**: https://github.com/Nexuspenn/NexaCustomize/issues
-
----
 
 © 2024 Nexus Foundation. Licensed under GPL-3.0-or-later.
