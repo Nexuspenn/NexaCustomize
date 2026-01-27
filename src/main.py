@@ -1,6 +1,7 @@
 # main.py
 #
-# Copyright 2023 Francesco Caracciolo
+# Copyright 2024 Nexus Foundation
+# Originally developed by Francesco Caracciolo (2023)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -31,7 +32,7 @@ class NyarchcustomizeApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='moe.nyarchlinux.customize',
+        super().__init__(application_id='nexusfoundation.nexaos.customize',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.on_about_action)
@@ -51,12 +52,15 @@ class NyarchcustomizeApplication(Adw.Application):
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='nyarchcustomize',
-                                application_icon='moe.nyarchlinux.customize',
-                                developer_name='Francesco Caracciolo',
-                                version='0.3.5',
-                                developers=['Francesco Caracciolo'],
-                                copyright='© 2023 Francesco Caracciolo')
+                                application_name='NexaOS Customize',
+                                application_icon='nexusfoundation.nexaos.customize',
+                                developer_name='Nexus Foundation',
+                                version='1.0.0',
+                                developers=['Nexus Foundation Team', 'Francesco Caracciolo (Original Author)'],
+                                copyright='© 2024 Nexus Foundation',
+                                website='https://nexuspenn.org',
+                                issue_url='https://github.com/Nexuspenn/NexaCustomize/issues',
+                                license_type=Gtk.License.GPL_3_0)
         about.present()
 
     def on_preferences_action(self, widget, _):
