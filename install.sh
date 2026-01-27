@@ -1,6 +1,6 @@
 #!/bin/bash
-APPID="moe.nyarchlinux.customize"
-BUNDLENAME="nyarchcustomize.flatpak"
+APPID="nexusfoundation.nexaos.customize"
+BUNDLENAME="nexacustomize.flatpak"
 flatpak-builder --install --user --force-clean flatpak-app "$APPID".json
 
 if [ "$1" = "bundle" ]; then
