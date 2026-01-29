@@ -37,8 +37,12 @@
 	</keywords>
 	<screenshots>
 		<screenshot type="default">
-			<image>https://user-images.githubusercontent.com/67018178/220080184-9fdcce21-1692-412a-8fc9-0b6f356f9247.png</image>
-			<caption>Main customization interface</caption>
+			<image>https://nexuspenn.org/assets/Home.png</image>
+			<caption>Main customization interface</caption> 
+                <screenshot type="default">
+                        <image>https://nexuspenn.org/assets/Options.png</image>
+                        <caption>Theming</caption>
+
 		</screenshot>
 	</screenshots>
 	<releases>
