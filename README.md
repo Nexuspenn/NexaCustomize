@@ -33,6 +33,7 @@ Tool to customize NexaOS GNOME appearance easily.
 ```bash
 git clone https://github.com/Nexuspenn/NexaCustomize.git
 cd NexaCustomize
+chomd +x ./install.sh
 ./install.sh
 ```
 
