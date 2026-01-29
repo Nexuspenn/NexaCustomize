@@ -12,12 +12,12 @@
           <property name="title" translatable="yes">Theming</property>
             <child>
               <object class="AdwPreferencesGroup">
-                <property name="title">Theming</property>
+                <property name="title">Visual Design</property>
                 <child>
                   <object class="AdwActionRow">
-                    <property name="title" translatable="yes">Material UwU</property>
+                    <property name="title" translatable="yes">Material You</property>
                     <property name="activatable_widget">materialyou_switch</property>
-                    <property name="subtitle" translatable="yes">Use wallpaper's colors to theme your system</property>
+                    <property name="subtitle" translatable="yes">Use wallpaper colors to theme your system</property>
                     <child>
                         <object class="GtkSwitch" id="materialyou_switch">
                           <property name="halign">center</property>
@@ -28,8 +28,8 @@
                 </child>
                 <child>
                   <object class="AdwExpanderRow" id="colortheming">
-                    <property name="title" translatable="yes">Color Theming</property>
-                    <property name="subtitle" translatable="yes">Use a custom color to theme your system</property>
+                    <property name="title" translatable="yes">Custom Color Scheme</property>
+                    <property name="subtitle" translatable="yes">Apply a custom accent color to your system</property>
                     <child>
                         <object class="GtkSwitch" id="colortheming_switch">
                           <property name="halign">center</property>
@@ -43,9 +43,9 @@
                </child>
                 <child>
                   <object class="AdwActionRow">
-                    <property name="title" translatable="yes">Blur</property>
+                    <property name="title" translatable="yes">Blur Effects</property>
                     <property name="activatable_widget">blur_switch</property>
-                    <property name="subtitle" translatable="yes">Enables blur on various places in your system</property>
+                    <property name="subtitle" translatable="yes">Enable modern blur effects throughout the interface</property>
                     <child>
                         <object class="GtkSwitch" id="blur_switch">
                           <property name="halign">center</property>
@@ -63,7 +63,7 @@
                   <object class="AdwActionRow">
                     <property name="title" translatable="yes">Wobbly Windows</property>
                     <property name="activatable_widget">wobblywindows_switch</property>
-                    <property name="subtitle" translatable="yes">Makes windows go swish swoosh</property>
+                    <property name="subtitle" translatable="yes">Dynamic window movement animations</property>
                     <child>
                         <object class="GtkSwitch" id="wobblywindows_switch">
                           <property name="halign">center</property>
@@ -74,9 +74,9 @@
                </child>
                 <child>
                   <object class="AdwActionRow">
-                    <property name="title" translatable="yes">Magic Lamp</property>
+                    <property name="title" translatable="yes">Magic Lamp Effect</property>
                     <property name="activatable_widget">magiclamp_switch</property>
-                    <property name="subtitle" translatable="yes">Enables magic lamp effect when minimizing a window</property>
+                    <property name="subtitle" translatable="yes">Smooth minimization animation effect</property>
                     <child>
                         <object class="GtkSwitch" id="magiclamp_switch">
                           <property name="halign">center</property>
@@ -89,7 +89,7 @@
                   <object class="AdwActionRow">
                     <property name="title" translatable="yes">Desktop Cube</property>
                     <property name="activatable_widget">desktopcube_switch</property>
-                    <property name="subtitle" translatable="yes">Enables desktop cube effect when switching workspaces</property>
+                    <property name="subtitle" translatable="yes">3D cube effect for workspace transitions</property>
                     <child>
                         <object class="GtkSwitch" id="desktopcube_switch">
                           <property name="halign">center</property>
@@ -102,12 +102,12 @@
           </child>
                     <child>
               <object class="AdwPreferencesGroup">
-                <property name="title">Preferences</property>
+                <property name="title">Desktop Preferences</property>
                 <child>
                   <object class="AdwActionRow">
                     <property name="title" translatable="yes">Desktop Icons</property>
                     <property name="activatable_widget">desktopicons_switch</property>
-                    <property name="subtitle" translatable="yes">Show icons on your desktop</property>
+                    <property name="subtitle" translatable="yes">Display icons on your desktop workspace</property>
                     <child>
                         <object class="GtkSwitch" id="desktopicons_switch">
                           <property name="halign">center</property>
@@ -118,9 +118,9 @@
                </child>
                 <child>
                   <object class="AdwActionRow">
-                    <property name="title" translatable="yes">System Tray Icons</property>
+                    <property name="title" translatable="yes">System Tray</property>
                     <property name="activatable_widget">systemtray_switch</property>
-                    <property name="subtitle" translatable="yes">Show apps running in background in the panel</property>
+                    <property name="subtitle" translatable="yes">Show background applications in the system panel</property>
                     <child>
                         <object class="GtkSwitch" id="systemtray_switch">
                           <property name="halign">center</property>
@@ -131,9 +131,9 @@
                </child>
                 <child>
                   <object class="AdwActionRow">
-                    <property name="title" translatable="yes">Background Logo</property>
+                    <property name="title" translatable="yes">NexaOS Branding</property>
                     <property name="activatable_widget">backgroundlogo_switch</property>
-                    <property name="subtitle" translatable="yes">Show nyarch background logo on your desktop</property>
+                    <property name="subtitle" translatable="yes">Display NexaOS logo on desktop background</property>
                     <child>
                         <object class="GtkSwitch" id="backgroundlogo_switch">
                           <property name="halign">center</property>
