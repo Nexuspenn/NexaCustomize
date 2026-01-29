@@ -76,4 +76,4 @@ See [COPYING](COPYING) for full license text.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-© 2024 Nexus Foundation. Licensed under GPL-3.0-or-later.
+© 2026 Nexus Foundation. Licensed under GPL-3.0-or-later.
