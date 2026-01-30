@@ -38,11 +38,11 @@
 	<screenshots>
 		<screenshot type="default">
 			<image>https://nexuspenn.org/assets/Home.png</image>
-			<caption>Main customization interface</caption> 
-                <screenshot type="default">
-                        <image>https://nexuspenn.org/assets/Options.png</image>
-                        <caption>Theming</caption>
-
+			<caption>Main customization interface</caption>
+		</screenshot>
+		<screenshot>
+			<image>https://nexuspenn.org/assets/Options.png</image>
+			<caption>Theming</caption>
 		</screenshot>
 	</screenshots>
 	<releases>
