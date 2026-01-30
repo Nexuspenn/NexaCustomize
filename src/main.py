@@ -32,7 +32,7 @@ class NyarchcustomizeApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='nexusfoundation.nexaos.customize',
+        super().__init__(application_id='org.nexuspenn.nexaos.customize',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.on_about_action)
@@ -53,7 +53,7 @@ class NyarchcustomizeApplication(Adw.Application):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name='NexaOS Customize',
-                                application_icon='nexusfoundation.nexaos.customize',
+                                application_icon='org.nexuspenn.nexaos.customize',
                                 developer_name='Nexus Foundation',
                                 version='1.0.0',
                                 developers=['Nexus Foundation Team', 'Francesco Caracciolo (Original Author)'],

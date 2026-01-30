@@ -1,6 +1,6 @@
-data/nexusfoundation.nexaos.customize.desktop.in
-data/nexusfoundation.nexaos.customize.appdata.xml.in
-data/nexusfoundation.nexaos.customize.gschema.xml
+data/org.nexuspenn.nexaos.customize.desktop.in
+data/org.nexuspenn.nexaos.customize.appdata.xml.in
+data/org.nexuspenn.nexaos.customize.gschema.xml
 src/main.py
 src/window.py
 src/window.ui

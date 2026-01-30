@@ -7,7 +7,7 @@
 #### Branding
 - **Organization**: Changed from Nyarch to Nexus Foundation
 - **Application Name**: NexaOS Customize
-- **App ID**: `nexusfoundation.nexaos.customize` (was `moe.nyarchlinux.customize`)
+- **App ID**: `org.nexuspenn.nexaos.customize` (was `moe.nyarchlinux.customize`)
 - **Binary Name**: `nexacustomize` (was `nyarchcustomize`)
 
 #### Brand Colors
@@ -21,9 +21,9 @@
 #### Renamed Files
 
 **Data Directory**:
-- `moe.nyarchlinux.customize.desktop.in` → `nexusfoundation.nexaos.customize.desktop.in`
-- `moe.nyarchlinux.customize.appdata.xml.in` → `nexusfoundation.nexaos.customize.appdata.xml.in`
-- `moe.nyarchlinux.customize.gschema.xml` → `nexusfoundation.nexaos.customize.gschema.xml`
+- `moe.nyarchlinux.customize.desktop.in` → `org.nexuspenn.nexaos.customize.desktop.in`
+- `moe.nyarchlinux.customize.appdata.xml.in` → `org.nexuspenn.nexaos.customize.appdata.xml.in`
+- `moe.nyarchlinux.customize.gschema.xml` → `org.nexuspenn.nexaos.customize.gschema.xml`
 
 **Source Directory**:
 - `nyarchcustomize.gresource.xml` → `nexacustomize.gresource.xml`
@@ -60,7 +60,7 @@
 - `/moe/nyarchlinux/customize/*`
 
 **New Resource Paths**:
-- `/org/nexusfoundation/nexaos/customize/*`
+- `/org/org.nexuspenn.nexaos.customize/*`
 
 ### Application ID Changes
 
@@ -68,7 +68,7 @@
 - `moe.nyarchlinux.customize`
 
 **New Application ID**:
-- `nexusfoundation.nexaos.customize`
+- `org.nexuspenn.nexaos.customize`
 
 ### Build System Changes
 
@@ -78,7 +78,7 @@
 - Updated all install paths and module directories
 
 **Flatpak**:
-- App ID: `nexusfoundation.nexaos.customize`
+- App ID: `org.nexuspenn.nexaos.customize`
 - Bundle name: `nexacustomize.flatpak`
 
 ### Copyright Updates
@@ -150,7 +150,7 @@ If you had the previous version installed:
 2. **Install New Version**:
    ```bash
    # Flatpak
-   flatpak install flathub nexusfoundation.nexaos.customize
+   flatpak install flathub org.nexuspenn.nexaos.customize
    
    # Or from source
    git clone https://github.com/Nexuspenn/NexaCustomize.git
@@ -167,8 +167,8 @@ If you had the previous version installed:
 
 1. **Update Package Names**:
    - Binary: `nexacustomize`
-   - Desktop file: `nexusfoundation.nexaos.customize.desktop`
-   - App ID: `nexusfoundation.nexaos.customize`
+   - Desktop file: `org.nexuspenn.nexaos.customize.desktop`
+   - App ID: `org.nexuspenn.nexaos.customize`
 
 2. **Update Dependencies**:
    - GNOME 46+ (recommended)

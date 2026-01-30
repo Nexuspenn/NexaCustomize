@@ -2,7 +2,7 @@
 Name=NexaOS Customize
 Comment=Customize NexaOS appearance and desktop environment
 Exec=nexacustomize
-Icon=nexusfoundation.nexaos.customize
+Icon=org.nexuspenn.nexaos.customize
 Terminal=false
 Type=Application
 Categories=Settings;GNOME;GTK;

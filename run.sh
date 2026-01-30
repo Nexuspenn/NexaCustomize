@@ -1,5 +1,5 @@
 #!/bin/bash
-APPID="nexusfoundation.nexaos.customize"
+APPID="org.nexuspenn.nexaos.customize"
 git add *
 git commit -m "temp"
 flatpak-builder --install --user --force-clean flatpak-app "$APPID".json

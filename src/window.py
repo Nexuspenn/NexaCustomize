@@ -37,7 +37,7 @@ LOGO_UUID = "background-logo@fedorahosted.org"
 MU_UUID = "material-you-colors@francescocaracciolo.github.io"
 MU_SCHEMA = "org.gnome.shell.extensions.material-you-colors"
 
-@Gtk.Template(resource_path='/org/nexusfoundation/nexaos/customize/window.ui')
+@Gtk.Template(resource_path='/org/org.nexuspenn.nexaos.customize/window.ui')
 class NyarchcustomizeWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'NyarchcustomizeWindow'
 
@@ -155,8 +155,8 @@ class NyarchcustomizeWindow(Adw.ApplicationWindow):
         return LAYOUTS
 
     def load_layouts(self):
-        self.layoutbuilder = Gtk.Builder.new_from_resource('/org/nexusfoundation/nexaos/customize/layoutgrid.ui')
-        self.themingPageBuilder = Gtk.Builder.new_from_resource('/org/nexusfoundation/nexaos/customize/theming.ui')
+        self.layoutbuilder = Gtk.Builder.new_from_resource('/org/org.nexuspenn.nexaos.customize/layoutgrid.ui')
+        self.themingPageBuilder = Gtk.Builder.new_from_resource('/org/org.nexuspenn.nexaos.customize/theming.ui')
         return self.layoutbuilder.get_object("gridcontent"), self.themingPageBuilder.get_object("themepage")
 
     def set_extension(self, uiid:str, enabled:bool):

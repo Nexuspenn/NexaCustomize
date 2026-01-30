@@ -1,4 +1,4 @@
-application_id = 'nexusfoundation.nexaos.customize'
+application_id = 'org.nexuspenn.nexaos.customize'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

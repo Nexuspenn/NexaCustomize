@@ -219,7 +219,7 @@ def create_color_button(color_hex, selected=False):
 
 # Application metadata
 APP_NAME = 'NexaOS Customize'
-APP_ID = 'nexusfoundation.nexaos.customize'
+APP_ID = 'org.nexuspenn.nexaos.customize'
 ORGANIZATION = 'Nexus Foundation'
 VERSION = '1.0.0'
 WEBSITE = 'https://nexuspenn.org'
